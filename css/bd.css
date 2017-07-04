@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body{
+	background: #F5EAD6;
+}
+.dingbu{
+	width: 100%;
+	height: 1.76rem;
+	background: #252424;
+}
+.dingbu .top{
+	width: 100%;
+	height: 0.93rem;
+	padding: 0 0.05rem;
+	box-sizing:border-box;
+	text-align: center;
+	padding-right: 0.81rem;
+	line-height: .25rem;
+}
+.dingbu .top a{
+	display: block;
+	width: 0.81rem;
+	height: 0.81rem;
+	padding: 0.11rem 0.12rem;
+	box-sizing:border-box;
+	font-size: 0;
+	float: left;
+}
+.dingbu .top a img{
+	width: 100%;
+	height: auto;
+}
+.dingbu .top span{
+	font-size: 16px;
+	color: #A8D655;
+}
+.dingbu .top .yinwen{
+	font-size: 14px;
+}
+.swiper-paginationbottom{
+	position: absolute;
+	top:0.93rem;
+	left: 0;
+	display: flex;
+	bottom:auto !important;
+	padding:0 .37rem;
+	justify-content:space-between;
+	box-sizing:border-box;
+}
+.swiper-paginationbottom .swiper-pagination-bullet{
+	width: 1.97rem;
+	height: .64rem;
+	background: url(../images/wjz/play1.png) no-repeat 1.3rem center;
+	background-size: .37rem .38rem;
+	padding-left:.44rem; 
+	line-height: .7rem;
+	margin: 0  !important;
+	border-radius: 0 !important;
+	opacity: 1 !important;
+	color: #F4EAD5;
+	font-size: 12px;
+	font-weight: bold;
+}
+.swiper-paginationbottom .swiper-pagination-bullet-active{
+	background: url(../images/wjz/play.png) no-repeat;
+	background-size: 1.97rem .64rem;
+	color: #10340A;
+}
+.daohang{
+	width: 100%;
+	height: 6.38rem;
+	background: url(../images/wjz/beijing.jpg);
+}
+.daohang ul{
+	width: 100%;
+	height: 100%;
+	padding: 0.21rem 0.17rem;
+	display: flex;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+}
+.daohang ul li{
+	width: 1.29rem;
+	padding-right:0.66rem;
+	text-align: center; 
+	line-height: 0.1rem;
+}
+.daohang ul li img{
+	width: 100%;
+	height: auto;
+}
+.daohang ul li:nth-child(4n){
+	padding: 0;
+}
+.daohang ul li a{
+	font-size: 10px;
+	color: #F4EAD5;
+}
+.guanggao{
+	width: 7.16rem;
+	margin: 0.1rem auto;
+	font-size: 0;
+}
+.guanggao img{
+	width: 100%;
+	height: auto;
+}
+.liebiao{
+	width: 7.16rem;
+	margin: 0 auto;
+}
+.liebiao ul li{
+	width: 100%;
+	height: 1.29rem;
+	margin-bottom: 0.02rem;
+	background: #FFFFFF;
+	border-radius: 0.1rem;
+	position: relative;
+}
+.liebiao ul li .new{
+	width: 0.43rem;
+	height: 0.43rem;
+	background: url(../images/wjz/NEW.png) no-repeat;
+	background-size: 0.43rem 0.43rem;
+	position: absolute;
+	top:-.05rem;
+	left: -.05rem;
+}
+.liebiao ul li .tuxiang{
+	font-size: 0;
+	width: 1.29rem;
+	float: left;
+}
+.liebiao ul li .tuxiang img{
+	width: 100%;
+	height: auto;
+}
+.liebiao ul li .right{
+	float: left;
+	width: 5.87rem;
+}
+.liebiao ul li .right .top{
+	width: 100%;
+	height: 0.9rem;
+	border-bottom:1px dotted #B3A991;
+	box-sizing:border-box;
+	padding: 0.15rem 0.1rem 0 0.2rem;
+	position: relative;
+}
+.liebiao ul li .right .top .zhiwei{
+	font-size: 12px;
+	color: #191919;
+}
+.liebiao ul li .right .top .gongsi{
+	width: 70%;
+	font-size: 10px;
+	color: #7A7774;
+	overflow: hidden;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+}
+.liebiao ul li .right .top .jiage{
+	position: absolute;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF163C;
+	bottom: 0;
+	right: 0.05rem;
+}
+.liebiao ul li .right .top .jiage span{
+	font-size: 10px;
+	color: #7A7774;
+	font-weight: 400;
+}
+.liebiao ul li .right .bottom{
+	width: 100%;
+	height: 0.39rem;
+	padding: 0.09rem 0.1rem 0 0.2rem;
+	box-sizing:border-box;
+}
+.liebiao ul li .right .bottom .diyi,.liebiao ul li .right .bottom .dier{
+	width: 0.74rem;
+	height: 100%;
+	background: url(../images/wjz/feedback.png) no-repeat;
+	background-size: 0.24rem 0.22rem;
+	text-align: right;
+	font-size: 10px;
+	color: #B2B2B2;
+	padding-right: 0.26rem;
+	float: left;
+}
+.liebiao ul li .right .bottom .dier{
+	background: url(../images/wjz/favourite2.png) no-repeat;
+	background-size: 0.24rem 0.24rem;
+	width: 0.55rem;
+}
+.liebiao ul li .right .bottom .disan{
+	background: url(../images/wjz/more1.png) no-repeat;
+	background-size: 0.24rem 0.23rem;
+	width: 0.24rem;
+	height: 100%;
+	float: right;
+	margin-right: 0.1rem;
+}

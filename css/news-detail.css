@@ -1,0 +1,347 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	box-sizing:border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul,li,ol,dl,dt,dd{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:none;
+}
+img{
+	border:0;
+}
+
+body{
+	font-size: 16px;
+	width: 100%;
+	background: #F4EAD5;
+}
+
+
+ /*信息详情*/
+ /*头部 */
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #252424;
+	position: fixed;
+	top: 0;
+	z-index: 999999999;
+	padding: 0.08rem 0.18rem;
+	display:flex!important;
+	justify-content:space-between;
+	
+}
+.more{
+	overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space:nowrap;
+
+}
+header .prev{
+    width: 0.73rem;
+    height: 0.72rem;
+    display: block;
+}
+header .prev img{
+	width: 0.73rem;
+    height: 0.72rem;
+}
+header .next{
+	width: 0.73rem;
+    height: 0.72rem;
+    display: block;
+    padding-right:0.18rem;
+
+    
+}
+header .next img{
+	 width: 0.73rem;
+    height: 0.72rem;
+}
+
+
+header>div h2{
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 16px;
+	color: #A8D655;
+	margin-top: 0.07rem;
+	font-weight: normal;
+}
+
+header>div h4{
+	font-size: 14px;
+	color: #A8D655;
+	font-weight: normal;
+}
+ /*版块一钟点工*/
+ section{
+ 	margin-top: 0.88rem;
+ 	margin-bottom:1.5rem;
+ }
+.lists{
+	width: 100%;
+	padding:0.17rem 0.17rem 0 0.17rem; 
+}
+.lists .text{
+	width: 100%;
+	height: auto;
+	border-radius: 0.1rem;
+	display: flex;
+	background: #fff;
+	position: relative;
+	padding:0.04rem 0.1rem 0.2rem 0.04rem;
+}
+.text .text-img{
+	width:28%;
+	height:2.61rem;
+	flex:0 0 auto;
+}
+.text .text-img img{
+	width: 100%;
+
+	
+}
+
+
+.text .text-right{
+	flex:1 0 auto;
+	display: flex;
+	flex-direction:column;
+}
+.text .new{
+	width: 0.43rem;
+	height: auto;
+	position: absolute;
+	right: -0.05rem;
+	top: -0.14rem;
+}
+.text .new img{
+	width: 0.43rem;
+	height: 0.43rem;
+}
+.text-right .right-top{
+	width:5.02rem;
+	flex:0 0 auto;
+	padding-top: 0.3rem;
+
+}
+.text-right .right-top h3{
+
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.text-right .right-top .title{
+	 font-weight: normal;
+	 font-size:10px;
+	 color: #A2A09E;
+	 display: block;
+}
+.text-right .right-top .dian{
+	
+	height: 0.2rem;
+	display: block;
+	background: url(../images/ycw/dian.png)no-repeat -0.04rem 0.08rem/100%;
+
+}
+
+.text-right .right-bottom{
+	flex:1 0 auto;
+	display: flex;
+	flex-direction:column;
+}
+.text-right .right-bottom .bottom-one{
+  
+}
+.right-bottom .bottom-one h3{
+     font-size: 27px;
+     color: #FF163C;
+
+}
+
+.right-bottom .bottom-one h3 .money{
+	 font-size:10px;
+	 font-weight: normal;
+	 display: inline-block;
+	 color: #A2A09E;
+}
+
+.right-bottom .bottom-one h3 .imgs{
+      float: right;
+      height: auto;
+}
+
+.right-bottom .bottom-one h3 i{
+	width: 0.37rem;
+	height: 0.38rem;
+	float: right;
+    margin-top: 0.05rem;
+    margin-right: 0.03rem;
+}
+.right-bottom .bottom-one h3 i img{
+   width: 0.37rem;
+	height: 0.38rem;
+}
+
+.right-bottom .bottom-two{
+	position: relative;
+    margin-top: 0.2rem;
+}
+
+.right-bottom .bottom-two a{
+       display: block;
+       float: left;
+       font-size: 10px;
+     
+}
+.right-bottom .bottom-two a:nth-child(2){
+		float: right;
+		margin-right: 0.2rem;
+}
+.right-bottom .bottom-two a:nth-child(3){
+		float: right;
+		margin-right: 0.4rem;
+		
+}	   
+.right-bottom .bottom-two a span{
+	    color: #B2B2B2;
+}
+
+.right-bottom .bottom-two span img{
+	 width: 0.25rem;
+	 height: 0.24rem;
+}
+.text .mark{
+	position: absolute;
+	right: 0.2rem;
+	bottom:-1.2rem;
+	z-index: 9999;
+}
+.text .mark img{
+	width: 2.49rem;
+	height: 1.36rem;
+}
+
+
+/*公司简介*/
+.text .left-topimg img{
+	width: 0.36rem;
+	height: 0.36rem;
+	position: absolute;
+	left:0.04rem;
+	top: 0.04rem;
+}
+
+.text .company-text{
+    width: 100%;
+    float: left;
+    padding-top: 0.2rem;
+    padding-left: 0.25rem;
+    height: auto;
+  
+
+    
+}
+.text .company-text .compy-img{
+	width: 0.38rem;
+	height: 0.39rem;
+	float: left;
+	
+	 
+
+}
+.text .company-text .compy-img img{
+	 width: 0.39rem;
+	 height: 0.38rem;
+     
+}
+
+.text .company-text .compy-text{
+	width: 100%;
+	 padding-left: 0.50rem;
+	height: auto;
+
+
+}
+.text .company-text .compy-text p{
+	padding-top: 0.05rem;
+	color: #1D1C1C;
+	height: auto;
+	 width: 100%;
+	font-size: 10px;
+
+}
+.text .company-text .compy-text span {
+	height: 0.1rem;
+	display: block;
+}
+.text .company-text .compy-text .spans {
+	height: 0.1rem;
+	width: 5rem;
+	display: block;
+}
+
+.text .company-text .compy-text span img{
+	margin-top:0.1rem;
+	width: 100%;
+	/*height: 0.05rem;*/
+	display: block;
+}
+
+
+/*职位描述*/
+.text .company-text .compy-text h2{
+	font-weight: normal;
+	color: #1D1C1C;
+	font-size: 16px;
+}
+.text .company-text .compy-text h3{
+	font-weight: normal;
+	color: #1D1C1C;
+	font-size: 10px;
+}
+
+/*底部*/
+ footer{
+	 width: 100%;
+	 height: 1.49rem;
+	 padding-top: 0.3rem;
+	 position: fixed;
+	 bottom: 0;
+	 z-index: 9999999999;
+	 background: url(../images/ycw/footer.png)no-repeat center center/cover;
+ }
+
+footer .pinglun{
+	width: 0.71rem;
+	height: 0.96rem;
+	margin-top: 0.15rem;
+	margin-left: 0.8rem;
+	display: block;
+	float: left;
+}
+
+footer .pinglun img{
+	height: 100%;
+}
+
+footer .jianli{
+	width: 3.05rem;
+	height: 1.14rem;
+	display: block;
+	float: left;
+	margin-left: 0.8rem;
+
+}
+
+footer .jianli img{
+	height: 100%;
+}

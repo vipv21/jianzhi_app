@@ -1,0 +1,234 @@
+body,ul,li,p,input,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	border: 0;
+}
+a{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	text-decoration: none;
+}
+body{
+	background-color: #F4EAD5;
+	font-size: 16px;
+}
+/*头部*/
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background: url(../../images/zh/heimian.png);
+	box-shadow: 0 0.01rem 0.01rem 0.01rem;
+	z-index: 99999;
+	position: relative;
+}
+.head .head-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.head .head-box .back{
+	width: 0.7rem;
+	height: 0.7rem;
+	display: block;
+	margin-top: 0.11rem;
+	margin-left: 0.17rem;
+	float: left;
+	position: absolute;
+}
+.head .head-box .back img{
+	width: 100%;
+}
+.head .head-box span{
+	color: #a8d655;
+	line-height: 0;
+	width: 2.4rem;
+	vertical-align: middle;
+}
+.head .head-box span h4{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 0.3rem;
+	margin-top: 0.16rem;
+}
+.head .head-box span h5{
+	font-family: "微软雅黑";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 0.24rem;
+}
+
+.head .yao{
+	width: 6.77rem;
+	position: absolute;
+	top: 0.66rem;
+	left: 0.5rem;
+}
+.head .yao img{
+	width: 100%;
+}
+
+/*数据图*/
+.shuju{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.shuju .shujutu{
+	width: 100%;
+	margin-top: 1.4rem;
+	height: auto;
+}
+.shuju .shujutu img{
+	width: 100%;
+}
+
+/*你摇到了*/
+.yaodao{
+	width: 100%;
+	height: auto;
+}
+.yaodao .yaodaole{
+	width: 100%;
+	height: auto;
+}
+.yaodao .yaodaole img{
+	width: 100%;
+	margin-top: -1.81rem;
+}
+
+/*兼职列表*/
+.jz-list{
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+	padding-left: 0.17rem;
+	padding-right: 0.17rem;
+}
+.jz-list .slide{
+	width: 100%;
+	height: auto;
+}
+.jz-list .slide .list{
+	width: 100%;
+	height: 1.29rem;
+	display: flex;
+	background-color: #fff;
+	border-radius: 0.1rem;
+	margin-bottom: 0.02rem;
+}
+.jz-list .slide .list .sleft{
+	flex:0 0 auto;
+	width: 1.29rem;
+	position: relative;
+}
+.jz-list .slide .list .sleft img{
+	width: 100%;
+}
+.jz-list .slide .list .sleft .new{
+	position: absolute;
+	top: -0.08rem;
+	left: -0.08rem;
+	width: 0.43rem;
+}
+.jz-list .slide .list .sleft .new img{
+	width: 100%;
+}
+.jz-list .slide .list .sright{
+	flex:1 0 auto;
+	display: flex;
+	flex-direction:column;
+	box-sizing:border-box;
+}
+.jz-list .slide .list .sright .stop{
+	width: 100%;
+	height: 0.87rem;
+	box-sizing:border-box;
+	padding-left: 0.2rem;
+	padding-top: 0.23rem;
+	line-height: 0;
+	display: flex;
+	justify-content:space-between;
+}
+.jz-list .slide .list .sright .stop .leftzhi{
+	width: 3.9rem;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.jz-list .slide .list .sright .stop .leftzhi h4{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #191919;
+	line-height: 12px;
+	margin-bottom: 0.08rem;
+}
+.jz-list .slide .list .sright .stop .leftzhi span{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	color: #7a7774;
+	line-height: 10px;
+	width: 3.9rem;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.jz-list .slide .list .sright .stop .price{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	color: #7a7774;
+	height: 0.58rem;
+	line-height: 0.2rem;
+	display: flex;
+	align-items:flex-end;
+}
+.jz-list .slide .list .sright .stop .price span i{
+	font-size: 24px;
+	color: #ff163c;
+	font-style: normal;
+}
+.jz-list .slide .list .sright .heng{
+	width: 100%;
+	height: 0px;
+	border-top: 1px dashed #BFB7A3;
+}
+.jz-list .slide .list .sright .bot{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.jz-list .slide .list .sright .bot .zan{
+	/*width: 0.88rem;*/
+	height: 100%;
+	float: left;
+}
+.jz-list .slide .list .sright .bot .zan img{
+	width: 0.24rem;
+	margin-left: 0.22rem;
+}
+.jz-list .slide .list .sright .bot .zan span{
+	font-size: 10px;
+	font-family: "微软雅黑";
+	color: #b2b2b2;
+}
+.jz-list .slide .list .sright .bot .more{
+	float: right;
+	width: 0.24rem;
+	display: block;
+	margin-right: 0.1rem;
+}
+.jz-list .slide .list .sright .bot .more img{
+	width: 100%;
+}
+.jz-list .laze{
+	width: 1.64rem;
+	margin: 0.18rem auto 0.2rem;
+}
+.jz-list .laze img{
+	width: 100%;
+}
